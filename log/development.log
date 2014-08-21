@@ -1,0 +1,2169 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 18:57:28 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 21ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:01:30 +0800
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (41.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:03:13 +0800
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (34.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:03:22 +0800
+
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  config/routes.rb:7:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:07:19 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todayUpdate" for 127.0.0.1 at 2014-08-18 19:07:35 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (35.3ms)
+
+
+Started GET "/todayUpdate/hello" for 127.0.0.1 at 2014-08-18 19:08:11 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate/hello"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.5ms)
+
+
+Started GET "/todayUpdate/hello" for 127.0.0.1 at 2014-08-18 19:08:52 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate/hello"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/todayUpdate/hello" for 127.0.0.1 at 2014-08-18 19:08:52 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate/hello"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/todayUpdate/hello" for 127.0.0.1 at 2014-08-18 19:08:54 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate/hello"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:11:37 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:11:37 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:11:40 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:11:40 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/railties-4.1.0/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todayUpdate" for 127.0.0.1 at 2014-08-18 19:11:45 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (8.9ms)
+
+
+Started GET "/todayUpdate" for 127.0.0.1 at 2014-08-18 19:15:10 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.1ms)
+
+
+Started GET "/todayUpdate" for 127.0.0.1 at 2014-08-18 19:15:10 +0800
+
+ActionController::RoutingError (No route matches [GET] "/todayUpdate"):
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (12.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:15:11 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 984ms (Views: 983.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 19:15:12 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:16:03 +0800
+
+ArgumentError ('todayUpdate' is not a supported controller name. This can lead to potential routing problems. See http://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  config/routes.rb:3:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 155ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 19:26:42 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 19:29:26 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 21:27:50 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 21:27:51 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 21:39:41 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `pry' for #<Binding:0x000001054c6110>):
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 21:41:36 +0800
+
+LoadError (cannot load such file -- pry):
+  app/controllers/today_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 21:45:40 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 283969ms (Views: 1029.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 21:50:24 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 21:56:35 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10294ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 21:56:45 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:16:49 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 32375ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 22:17:21 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:23:35 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 264532ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 22:27:59 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:28:15 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 86847ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 22:29:42 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:30:06 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 480422ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:38:06 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 416ms
+
+NoMethodError (undefined method `is_a' for {"status"=>0, "info"=>"帐号不能为空。", "data"=>true}:Hash):
+  app/models/static_data_manager.rb:23:in `autoLogin'
+  app/models/static_data_manager.rb:9:in `initialize'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:38:37 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 143ms
+
+NameError (undefined local variable or method `status' for #<StaticDataManager:0x000001015580a0>):
+  app/models/static_data_manager.rb:24:in `autoLogin'
+  app/models/static_data_manager.rb:9:in `initialize'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:39:12 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 176679ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 22:42:09 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-18 22:42:12 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1575367ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-18 23:08:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:21:32 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 10ms
+
+NoMethodError (undefined method `baseUrl' for main:Object):
+  app/models/static_data_manager.rb:5:in `<top (required)>'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:21:45 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `baseUrl' for #<StaticDataManager:0x00000101529890>):
+  app/models/static_data_manager.rb:17:in `autoLogin'
+  app/models/static_data_manager.rb:11:in `initialize'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:22:10 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `baseUrl' for StaticDataManager:Class):
+  app/models/static_data_manager.rb:12:in `<class:StaticDataManager>'
+  app/models/static_data_manager.rb:5:in `<top (required)>'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:22:15 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `baseUrl' for #<StaticDataManager:0x000001060b1600>):
+  app/models/static_data_manager.rb:16:in `autoLogin'
+  app/models/static_data_manager.rb:9:in `initialize'
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (75.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (90.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 397ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 00:22:41 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:30:07 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `baseUrl' for #<StaticDataManager:0x00000101563b30>):
+  app/models/static_data_manager.rb:17:in `autoLogin'
+  app/controllers/today_controller.rb:4:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:34:09 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 4ms
+
+NameError (uninitialized constant StaticDataManager::BASEURL):
+  app/models/static_data_manager.rb:16:in `autoLogin'
+  app/controllers/today_controller.rb:4:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:35:39 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 5ms
+
+NameError (uninitialized constant StaticDataManager::BASEURL):
+  app/models/static_data_manager.rb:16:in `autoLogin'
+  app/controllers/today_controller.rb:4:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:36:22 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 193855ms
+
+NameError (uninitialized constant StaticDataManager::BASEURL):
+  app/models/static_data_manager.rb:16:in `autoLogin'
+  app/controllers/today_controller.rb:4:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:39:36 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 7608ms
+
+NameError (uninitialized constant StaticDataManager::BaseUrl):
+  app/models/static_data_manager.rb:16:in `autoLogin'
+  app/controllers/today_controller.rb:5:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:40:05 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 63667ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 00:41:08 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 00:42:09 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 28693ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 00:42:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:36:14 +0800
+
+LoadError (No such file to load -- nokogiri):
+  app/helpers/today_helper.rb:2:in `<top (required)>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/today_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (12.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:48:23 +0800
+
+LoadError (No such file to load -- nokogiri):
+  app/helpers/today_helper.rb:1:in `<top (required)>'
+  app/controllers/application_controller.rb:1:in `<top (required)>'
+  app/controllers/today_controller.rb:1:in `<top (required)>'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (9.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:54:07 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 16425ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 13:54:24 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:56:08 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 140579ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 13:58:29 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:58:48 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 59597ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 13:59:47 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 13:59:49 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 74371ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 14:01:04 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 14:01:18 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 53480ms
+
+NoMethodError (undefined method `account' for #<User:0x0000010131da88>):
+  app/models/static_data_manager.rb:18:in `autoLogin'
+  app/controllers/today_controller.rb:5:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 14:02:29 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 306654ms
+
+NoMethodError (undefined method `account' for #<User:0x000001056b84f0>):
+  app/models/static_data_manager.rb:18:in `autoLogin'
+  app/controllers/today_controller.rb:5:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 14:07:35 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 55228ms
+
+NoMethodError (undefined method `fetchTodays' for #<TodayController:0x00000101387fa0>):
+  app/controllers/today_controller.rb:8:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 15:21:36 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 24848ms
+
+NoMethodError (undefined method `fetchTodays' for #<TodayController:0x00000105301730>):
+  app/controllers/today_controller.rb:9:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 15:26:00 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `helper' for #<TodayController:0x000001012ef638>):
+  app/controllers/today_controller.rb:3:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (48.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 15:34:48 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 13126ms
+
+NoMethodError (undefined method `fetchTodays' for #<TodayController:0x000001054d9b48>):
+  app/controllers/today_controller.rb:12:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 15:36:23 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1195822ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:19 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 15:56:23 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15193ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 15:56:38 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:10:44 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 153042ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 16:13:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:18:23 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 991515ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 16:34:54 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 16:34:55 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:35:34 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 9724ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 16:35:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:36:00 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12087ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 16:36:12 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:47:43 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 83551ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 16:49:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 16:49:19 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 5734117ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:24:53 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:24:57 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15348ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:12 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:25:41 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 12851ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:25:54 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:26:13 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 312436ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:31:25 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:33:45 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 887046ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:48:33 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:49:22 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 432018ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 18:56:34 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:56:38 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 1349ms
+
+NoMethodError (undefined method `map' for "":String):
+  app/helpers/today_helper.rb:9:in `fetchTodays'
+  app/controllers/today_controller.rb:19:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:57:04 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 185ms
+
+NoMethodError (undefined method `map' for nil:NilClass):
+  app/helpers/today_helper.rb:9:in `fetchTodays'
+  app/controllers/today_controller.rb:19:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 18:58:24 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 121278ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 19:00:26 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 19:10:00 +0800
+
+SyntaxError (/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:22: syntax error, unexpected tIDENTIFIER, expecting '}'
+  			domain: '.yyets.com'
+  			      ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:23: syntax error, unexpected '}', expecting keyword_end
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  			expires: 1.hour.from_now
+  			       ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+  			domain: '.yyets.com'
+  			       ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:29: syntax error, unexpected '}', expecting keyword_end):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 19:10:58 +0800
+
+SyntaxError (/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:22: syntax error, unexpected tIDENTIFIER, expecting '}'
+  			domain: "www.yyets.com"
+  			      ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:23: syntax error, unexpected '}', expecting keyword_end
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:27: syntax error, unexpected tIDENTIFIER, expecting '}'
+  			expires: 1.hour.from_now
+  			       ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:28: syntax error, unexpected ':', expecting keyword_end
+  			domain: "www.yyets.com"
+  			       ^
+/Users/kino/Kino/PrivateProject/JustFun/app/controllers/today_controller.rb:29: syntax error, unexpected '}', expecting keyword_end):
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:443:in `block in load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:633:in `new_constants_in'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:442:in `load_file'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:342:in `require_or_load'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:480:in `load_missing_constant'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:180:in `const_missing'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `const_get'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:238:in `block in constantize'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `each'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `inject'
+  activesupport (4.1.0) lib/active_support/inflector/methods.rb:236:in `constantize'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:552:in `get'
+  activesupport (4.1.0) lib/active_support/dependencies.rb:583:in `constantize'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:76:in `controller_reference'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:66:in `controller'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:44:in `call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:71:in `block in call'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.0) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.0) lib/action_dispatch/routing/route_set.rb:676:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.0) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.0) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.0) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.0) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.0) lib/rails/engine.rb:514:in `call'
+  railties (4.1.0) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/kino/.rvm/rubies/ruby-2.0.0-p451/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 19:12:02 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 64810ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 19:13:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 19:16:47 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 166037ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-19 19:19:33 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 75828ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-19 19:20:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:15:39 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 444924ms (Views: 98.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-21 11:23:05 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:23:22 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 655235ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-21 11:34:17 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:34:45 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 904425ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/today.css?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/today_update.css?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/today.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/today_update.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-21 11:49:49 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:49:53 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 2324ms
+
+NameError (undefined local variable or method `updatesByDate' for #<TodayController:0x000001069601c0>):
+  app/helpers/today_helper.rb:19:in `block in fetchTodays'
+  app/helpers/today_helper.rb:10:in `fetchTodays'
+  app/controllers/today_controller.rb:12:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:50:33 +0800
+Processing by TodayController#lists as HTML
+Completed 500 Internal Server Error in 7991ms
+
+NameError (uninitialized constant TodayHelper::HashTable):
+  app/helpers/today_helper.rb:19:in `block in fetchTodays'
+  app/helpers/today_helper.rb:10:in `fetchTodays'
+  app/controllers/today_controller.rb:12:in `lists'
+
+
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/kino/.rvm/gems/ruby-2.0.0-p451/gems/actionpack-4.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-21 11:51:33 +0800
+Processing by TodayController#lists as HTML
+  Rendered today/lists.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8791658ms (Views: 30.4ms | ActiveRecord: 0.0ms)
